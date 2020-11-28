@@ -13,21 +13,6 @@ img.contact {
   width: 550px;
 }
 
-.button {
-  background-color: #6b3293;
-  padding: 15px 30px;
-  margin-top: 20px;
-  font-size: 0.9rem;
-  height: 50px;
-  width: 200px;
-  color: #fff;
-}
-
-.button:hover {
-  cursor: pointer;
-  color: #999;
-}
-
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,16 +20,21 @@ img.contact {
   padding: 5rem;
 }
 
+.button {
+  background-color: #6b3293 !important;
+  color: white !important;
+}
+
+.btn-cancel {
+  background-color: white !important;
+  color: black !important;
+}
+
 .contact-section {
   display: flex;
   margin: 0 5rem;
   flex-direction: column;
   align-items: center;
-}
-
-.contact-divider {
-  border-left: 2px solid #999;
-  height: 85%;
 }
 
 .contact-text {
