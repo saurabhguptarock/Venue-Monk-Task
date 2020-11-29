@@ -41,29 +41,33 @@ const ContactUs = () => {
             ></button>
           </header>
           <section className="modal-card-body">
-            <div class="field">
-              <label class="label">Name</label>
-              <div class="control has-icons-left">
-                <input class="input" type="text" placeholder="Text input" />
-                <span class="icon is-small is-left">
-                  <i class="fas fa-user"></i>
+            <div className="field">
+              <label className="label">Name</label>
+              <div className="control has-icons-left">
+                <input className="input" type="text" placeholder="Text input" />
+                <span className="icon is-small is-left">
+                  <i className="fas fa-user"></i>
                 </span>
               </div>
             </div>
-            <div class="field">
-              <label class="label">Email</label>
-              <div class="control has-icons-left">
-                <input class="input" type="email" placeholder="Email input" />
-                <span class="icon is-small is-left">
-                  <i class="fas fa-envelope"></i>
+            <div className="field">
+              <label className="label">Email</label>
+              <div className="control has-icons-left">
+                <input
+                  className="input"
+                  type="email"
+                  placeholder="Email input"
+                />
+                <span className="icon is-small is-left">
+                  <i className="fas fa-envelope"></i>
                 </span>
               </div>
             </div>
-            <div class="field">
-              <label class="label">Message</label>
-              <div class="control">
+            <div className="field">
+              <label className="label">Message</label>
+              <div className="control">
                 <textarea
-                  class="textarea"
+                  className="textarea"
                   placeholder="Write your message here"
                 ></textarea>
               </div>

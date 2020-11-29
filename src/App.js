@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import "./App.css";
 import "bulma/css/bulma.css";
@@ -18,6 +19,7 @@ const App = () => {
       />
       <Router>
         <Switch>
+          <Route path="/" exact component={Home} />
           <Route path="/about-us" exact component={AboutUs} />
           <Route path="/contact-us" exact component={ContactUs} />
         </Switch>
